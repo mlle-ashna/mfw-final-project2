@@ -14,3 +14,24 @@ body {
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(71,9,121,1) 35%, rgba(166,4,144,0.6281863087031687) 100%);
 }
+
+@media (max-width: 992px) {
+    img {
+      max-width: 60%;
+      margin: 0 auto 30px auto;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    img {
+      max-width: 80%;
+      margin: 0 auto 30px auto;
+    }
+  }
+  
+  @media (max-width: 420px) {
+    img {
+      max-width: 100%;
+      margin: 0 auto 30px auto;
+    }
+  }
