@@ -1,0 +1,16 @@
+div {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+}
+
+img {
+    width: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+body {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(71,9,121,1) 35%, rgba(166,4,144,0.6281863087031687) 100%);
+}
